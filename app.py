@@ -5,9 +5,11 @@
 # patient_age = 20
 # new_patient = True
 
+# 練習題
 # name = input("What is your name? ")
 # color = input("What is your favorite color? ")
 # print(f"Hi! {name}. your favorite color is {color}, It's cool!")
 
-kg = input("Please type your weight(kg): ")
-print(f"your weight is {float(kg)*2.2:.1f}lb.")
+# 體重轉換kg to lbs
+# kg = input("Please type your weight(kg): ")
+# print(f"your weight is {float(kg)*2.2:.1f}lbs.")
