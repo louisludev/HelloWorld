@@ -98,3 +98,15 @@
 #     print("go to hell")
 
 # # -------------------------------------------------------
+
+# # if 練習題 2
+
+# name = "Louis"
+# if len(name) < 3:
+#     print("name must be at least '3' characters")
+# elif len(name) > 10:
+#     print("name can be maximum of '50' characters")
+# else:
+#     print("name looks good!")
+
+# # -------------------------------------------------------
