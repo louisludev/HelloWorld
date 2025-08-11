@@ -89,24 +89,24 @@
 
 # # if 邏輯
 
-# has_good_credit = True
-# has_criminal_record = False
+has_good_credit = True
+has_criminal_record = False
 
-# if has_good_credit and not has_criminal_record:
-#     print("Eligable for loan")
-# else:
-#     print("go to hell")
-
-# # -------------------------------------------------------
-
-# # if 練習題 2
-
-# name = "Louis"
-# if len(name) < 3:
-#     print("name must be at least '3' characters")
-# elif len(name) > 10:
-#     print("name can be maximum of '50' characters")
-# else:
-#     print("name looks good!")
+if has_good_credit and not has_criminal_record:
+    print("Eligable for loan")
+else:
+    print("go to hell")
 
 # # -------------------------------------------------------
+
+# if 練習題 2
+
+name = input("輸入你的遊戲ID: ")
+if len(name) < 3:
+    print("名字至少要大於3個字")
+elif len(name) >= 10:
+    print("名字最多只能10個字")
+else:
+    print("不錯的ID!")
+
+# -------------------------------------------------------
