@@ -89,24 +89,34 @@
 
 # # if 邏輯
 
-has_good_credit = True
-has_criminal_record = False
+# has_good_credit = True
+# has_criminal_record = False
 
-if has_good_credit and not has_criminal_record:
-    print("Eligable for loan")
-else:
-    print("go to hell")
+# if has_good_credit and not has_criminal_record:
+#     print("Eligable for loan")
+# else:
+#     print("go to hell")
 
 # # -------------------------------------------------------
 
-# if 練習題 2
+# # if 練習題 2
 
-name = input("輸入你的遊戲ID: ")
-if len(name) < 3:
-    print("名字至少要大於3個字")
-elif len(name) >= 10:
-    print("名字最多只能10個字")
-else:
-    print("不錯的ID!")
+# name = input("輸入你的遊戲ID: ")
+# if len(name) < 3:
+#     print("名字至少要大於3個字")
+# elif len(name) >= 10:
+#     print("名字最多只能10個字")
+# else:
+#     print("不錯的ID!")
 
-# -------------------------------------------------------
+# # -------------------------------------------------------
+
+# 計算平均成績
+
+c = input("輸入國文成績: ")
+m = input("輸入數學成績: ")
+e = input("輸入英文成績: ")
+
+print(f"你的平均為: {(int(c)+int(m)+int(e))/3:.1f}")
+
+# # -------------------------------------------------------
