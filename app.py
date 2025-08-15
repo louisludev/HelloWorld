@@ -111,12 +111,50 @@
 
 # # -------------------------------------------------------
 
-# 計算平均成績
+# # 計算平均成績
 
-c = input("輸入國文成績: ")
-m = input("輸入數學成績: ")
-e = input("輸入英文成績: ")
+# c = int(input("輸入國文成績: "))
+# m = int(input("輸入數學成績: "))
+# e = int(input("輸入英文成績: "))
 
-print(f"你的平均為: {(int(c)+int(m)+int(e))/3:.1f}")
+# print(f"你的平均為: {(c+m+e)/3:.1f}")
 
 # # -------------------------------------------------------
+
+# pw = int(input('請輸入密碼: '))
+
+# if pw == 7005:
+#     print('輸入正確')
+# else:
+#     print('錯誤')
+
+# # -------------------------------------------------------
+
+# score = int(input("請輸入成績: "))
+
+# if 100 >= score >= 90:
+#     print("優等")
+# elif 90 > score >= 80:
+#     print("甲等")
+# elif 80 > score >= 70:
+#     print("乙等")
+# elif 70 > score >= 60:
+#     print("丙等")
+# elif 0 <= score < 60:
+#     print("丁等")
+# else:
+#     print("error")
+
+# # -------------------------------------------------------
+
+spense = int(input("請輸入購物金額: "))
+
+if spense > 10000:
+    if spense >= 100000:
+        print(f'{spense*0.8}元')
+    elif spense >= 50000:
+        print(f'{spense*0.85}元')
+    elif spense >= 30000:
+        print(f'{spense*0.9}元')
+    else:
+        print(f'{spense*0.95}元')
