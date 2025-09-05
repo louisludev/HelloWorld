@@ -147,14 +147,30 @@
 
 # # -------------------------------------------------------
 
-spense = int(input("請輸入購物金額: "))
+# spense = int(input("請輸入購物金額: "))
 
-if spense > 10000:
-    if spense >= 100000:
-        print(f'{spense*0.8}元')
-    elif spense >= 50000:
-        print(f'{spense*0.85}元')
-    elif spense >= 30000:
-        print(f'{spense*0.9}元')
-    else:
-        print(f'{spense*0.95}元')
+# if spense > 10000:
+#     if spense >= 100000:
+#         print(f'{spense*0.8}元')
+#     elif spense >= 50000:
+#         print(f'{spense*0.85}元')
+#     elif spense >= 30000:
+#         print(f'{spense*0.9}元')
+#     else:
+#         print(f'{spense*0.95}元')
+
+# # -------------------------------------------------------
+
+# 數樓層 但跳過4樓
+
+# floors = int(input("輸入樓層: "))
+
+# if floors > 3:
+#     floors += 1
+
+# for i in range(1, floors+1):
+#     if i == 4:
+#         continue
+#     print(i,end=", ")
+
+# # -------------------------------------------------------
